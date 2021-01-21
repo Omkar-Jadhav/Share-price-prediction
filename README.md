@@ -1,2 +1,2 @@
 # Share-price-prediction
-The bidirectional LSTM model with RSI technical indicator predicts the future price of the share. 
+The bidirectional stacked LSTM model predicts the future price of the share by taking the previous 100 days data. The model gives RMSE of 15 Rs. on the test set. 
